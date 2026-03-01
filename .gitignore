@@ -1,0 +1,50 @@
+# Ignorar dados brutos e processados
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Ignorar notebooks temporários e checkpoints
+.ipynb_checkpoints/
+*.ipynb~
+
+# Ignorar arquivos de cache e logs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignorar arquivos de ambiente virtual
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# Ignorar arquivos de configuração locais
+*.config
+*.ini
+*.toml
+*.yaml
+*.yml
+
+# Ignorar arquivos de saída de modelos
+models/
+*.h5
+*.pkl
+*.joblib
+
+# Ignorar resultados e relatórios gerados
+reports/
+*.html
+*.pdf
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
